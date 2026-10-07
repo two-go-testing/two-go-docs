@@ -22,4 +22,4 @@ npm run docs:preview
 
 ## Deployment
 
-The site deploys to GitHub Pages. On every push to the `main` branch, a GitHub Actions workflow builds the VitePress site and publishes the output to Pages.
+The site deploys to GitHub Pages. On every push to the `main` branch, a GitHub Actions workflow builds the VitePress site and publishes the output to Pages at <https://two-go-testing.github.io/two-go-docs/>. The site is served from that sub-path, so `base` in `docs/.vitepress/config.js` must stay `/two-go-docs/`.
