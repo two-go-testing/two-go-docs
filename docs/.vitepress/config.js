@@ -1,4 +1,7 @@
 export default {
+  // Served from https://two-go-testing.github.io/two-go-docs/, so every asset
+  // and link needs the repository name as its base path.
+  base: "/two-go-docs/",
   title: "two-go",
   description:
     "Documentation for two-go, a zero-dependency fluent service and API testing library for Node.",
